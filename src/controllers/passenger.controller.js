@@ -51,7 +51,7 @@ const getClosestDrivers = async (req, res, next) => {
         $nearSphere: {
           $geometry: {
             type: "Point",
-            coordinates: passLocation.coordinates,
+            coordinates: passLocation,
           }
         },
       },

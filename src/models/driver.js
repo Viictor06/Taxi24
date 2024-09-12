@@ -17,11 +17,7 @@ const driverSchema = new Schema({
   },
 
   location: {
-    type: {
-      type: String,
-      default: "Point",
-    },
-    coordinates: [Number],
+    type: [Number],
   },
 
   available: {

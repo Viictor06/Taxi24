@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "66e32a402998756306701d48"
+  },
+  "nombre": "Luis Martínez",
+  "vehiculo": "Toyota Corolla",
+  "placa": "ABC1234",
+  "location": [
+    -70.011234,
+    18.511234
+  ],
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "66e32a402998756306701d49"
+  },
+  "nombre": "Ana López",
+  "vehiculo": "Honda Civic",
+  "placa": "DEF5678",
+  "location": [
+    -70.021345,
+    18.512345
+  ],
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "66e32a402998756306701d4a"
+  },
+  "nombre": "Carlos Fernández",
+  "vehiculo": "Ford Focus",
+  "placa": "GHI9012",
+  "location": [
+    -70.031456,
+    18.513456
+  ],
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "66e32a402998756306701d4b"
+  },
+  "nombre": "María Gómez",
+  "vehiculo": "Chevrolet Malibu",
+  "placa": "JKL3456",
+  "location": [
+    -70.041567,
+    18.514567
+  ],
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "66e32a402998756306701d4c"
+  },
+  "nombre": "Javier Ruiz",
+  "vehiculo": "Nissan Altima",
+  "placa": "MNO7890",
+  "location": [
+    -70.051678,
+    18.515678
+  ],
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "66e32a402998756306701d4d"
+  },
+  "nombre": "Sofia Pérez",
+  "vehiculo": "Hyundai Elantra",
+  "placa": "PQR1234",
+  "location": [
+    -70.061789,
+    18.516789
+  ],
+  "available": false
+},
+{
+  "_id": {
+    "$oid": "66e32a402998756306701d4e"
+  },
+  "nombre": "Pedro Morales",
+  "vehiculo": "Kia Soul",
+  "placa": "STU5678",
+  "location": [
+    -70.07189,
+    18.51789
+  ],
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "66e32a402998756306701d4f"
+  },
+  "nombre": "Laura Sánchez",
+  "vehiculo": "Mazda 3",
+  "placa": "VWX9012",
+  "location": [
+    -70.081901,
+    18.518901
+  ],
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "66e32a402998756306701d50"
+  },
+  "nombre": "Ricardo Gómez",
+  "vehiculo": "Subaru Impreza",
+  "placa": "YZA3456",
+  "location": [
+    -70.091012,
+    18.519012
+  ],
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "66e32a402998756306701d51"
+  },
+  "nombre": "Isabel Hernández",
+  "vehiculo": "Volkswagen Jetta",
+  "placa": "BCD7890",
+  "location": [
+    -70.101123,
+    18.520123
+  ],
+  "available": true
+}]

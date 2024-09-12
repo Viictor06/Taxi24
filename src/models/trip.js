@@ -2,32 +2,24 @@ const { Schema, model } = require("mongoose");
 
 const tripSchema = new Schema({
   
-  driver: {
+  conductorId: {
     type: Schema.Types.ObjectId,
     ref: "Driver",
     required: true,
   },
 
-  passenger: {
+  pasajeroId: {
     type: Schema.Types.ObjectId,
     ref: "Passenger",
     required: true,
   },
 
-  startLocation: {
-    type: {
-      type: String,
-      default: "Point",
-    },
-    coordinates: [Number],
+  origen: {
+    type: [Number],
   },
 
-  endLocation: {
-    type: {
-      type: String,
-      default: "Point",
-    },
-    coordinates: [Number],
+  destino: {
+    type: [Number],
   },
 
   status: {

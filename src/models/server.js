@@ -27,6 +27,7 @@ class Server {
     this.app.use('/passengers', require('../routes/passengers.routes'));
     this.app.use('/drivers', require('../routes/drivers.routes'));
     this.app.use('/trips', require('../routes/trips.routes'));
+    this.app.use((req, res) => { return res.status(404).send('<h1>Page Not Found</h1>')})
   }
 
   listen() {
