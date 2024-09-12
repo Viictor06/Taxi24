@@ -22,4 +22,8 @@ Prueba técnica que consiste en desarrollar un API para gestionar la flota de pa
 Se ejecutara por defecto en el puerto 3000, pudiendo así acceder a través de
 http://localhost:3000
 
+##
 Dentro del proyecto se encuentra una carpeta llamada data, que incluye unos archivos tipo json que contienen los datos para insertar en la base de datos de MongoDB y realizar las pruebas correspondientes.
+
+Para la documentación del API puede ingresar mediante el siguiente link:
+https://documenter.getpostman.com/view/27248340/2sAXqne4hX
